@@ -1,0 +1,47 @@
+# CSS Variables
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --jasmine: #fbd784;
+  --bg: #0b1d26;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+# Fonts
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+# Text
+a Hiking guide
+
+Be Preoared For The Mountains And Beyond
+
+What Leave of Hiker are you?
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus iusto temporibus eum! Provident rem eveniet facere eligendi culpa laborum saepe odit modi, velit fugiat suscipit
+qui sequi optio autem harum?
+
+Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur
+
+copyright 2024 MNTN, INC, Terms & Privacy
+
+More on the blog
+
+More on the MNTN
