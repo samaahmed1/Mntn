@@ -89,7 +89,7 @@ header .container {
     position: absolute;
     top: 30px;
     right: 0;
-    min-width: 140px;
+    min-width: 190px;
     background-color: rgba(0, 0, 0, .4);
     z-index: 5;
   }
@@ -99,7 +99,7 @@ header .container {
   nav ul li a {
     display: block;
     color: var(--white);
-    padding: 15px;
+    padding: 20px;
   }
   nav ul li:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, .5); ;
@@ -167,6 +167,11 @@ header .container {
   font-size: 120px;
   color: rgb(255 255 255 / 0.2);
   z-index: -1;
+}
+@media (max-width: 991px) {
+  .article .container h2::before {
+    left: -4px;
+  }
 }
 .article-1 .container h2::before {
   content: "01";
