@@ -51,8 +51,8 @@ ul {
   align-items: center;
   flex-wrap: wrap;
 }
-section
- , footer {
+section,
+footer {
   padding: var(--section-padding) 0;
 }
 @media (min-width: 992px) {
@@ -137,20 +137,20 @@ header .container nav ul li a {
     top: 30px;
     right: 0;
     width: 270px;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, 0.4);
   }
   header .container nav ul li:not(:last-child) {
-    border-bottom: 1px solid rgba(0, 0, 0, .5) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }
 }
 @media (min-width: 992px) {
-  header .container nav input
-   , header .container nav label img {
+  header .container nav input,
+  header .container nav label img {
     display: none;
-   }
-   header .container nav ul {
+  }
+  header .container nav ul {
     display: flex;
-   }
+  }
 }
 .hero {
   background: url(../images/hero.webp) no-repeat center / 100% 100%;
@@ -159,8 +159,8 @@ header .container nav ul li a {
 .hero .container {
   height: 100%;
 }
-.hero .container .col
- , .article .container .col article {
+.hero .container .col,
+.article .container .col article {
   justify-content: start;
   gap: 20px;
 }
@@ -179,7 +179,7 @@ header .container nav ul li a {
   top: -100px;
   left: -60px;
   font-size: 120px;
-  color: rgba(255, 255, 255, .2);
+  color: rgba(255, 255, 255, 0.2);
 }
 @media (max-width: 991px) {
   .article .container .col article h2::after {
@@ -201,19 +201,19 @@ header .container nav ul li a {
 footer .container {
   align-items: start;
 }
-footer .container .info 
- , footer .container .col  a {
+footer .container .info,
+footer .container .col a {
   color: var(--white);
   margin: 10px 0;
   display: block;
- }
- footer .container .copy-right {
+}
+footer .container .copy-right {
   margin-top: 55px;
   color: var(--white);
- }
- footer .container .more{
+}
+footer .container .more {
   display: flex;
   align-items: start;
   flex-wrap: wrap;
   gap: 50px;
- }
+}
