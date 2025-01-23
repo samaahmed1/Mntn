@@ -5,9 +5,9 @@
   "background_color": "#fbd784",
   "display": "standalone",
   "orientation": "Any",
-  "scope": "/",
-  "start_url": "/https://samaahmed1.github.io/Mntn/",
-  "id": "/Mntn/",
+  "scope": "https://samaahmed1.github.io/Mntn/",
+  "start_url": "https://samaahmed1.github.io/Mntn/",
+  "id": "https://samaahmed1.github.io/Mntn/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
